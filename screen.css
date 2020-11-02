@@ -1,6 +1,82 @@
-/* * * * * rose quartz: #f7cac9 * * * * */
+/* * * * * * * * * * 
+
+colors
+rose quartz: #f7cac9 
+'white': #fffcfc
+'black': #343434
+red: #751311
+
+* * * * * * * * * */
 
 body {
   background-color: #f7cac9;
+  font-family: "Cabin";
+  font-weight: 400;
+}
+
+/* * * * * * * * * * header * * * * * * * * * */
+
+h1,
+h2 {
+  font-family: "Lilita One", cursive;
+  color: #343434;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: -4px;
+}
+
+header {
+  text-align: center;
+}
+
+/* * * * * nav * * * * */
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: #751311;
+  font-family: "Cabin";
+  font-weight: 500;
+  padding: 0.5em 1em;
+}
+
+/* * * * * * * * * * index * * * * * * * * * */
+
+#page {
+  background-color: #fffcfc;
   margin: auto;
+  width: 85%;
+  padding: 28px;
+  margin-top: 28px;
+}
+#content {
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+}
+
+/* * * * * about * * * * */
+
+#about {
+  flex-shrink: 1;
+}
+
+/* * * * * contact * * * * */
+
+#contact {
+  width: 25%;
+}
+
+#contact a {
+  color: #751311;
+  font-family: "Cabin";
+  font-weight: 400;
 }
