@@ -12,6 +12,7 @@ body {
   background-color: #f7cac9;
   font-family: "Cabin";
   font-weight: 400;
+  color: #343434;
 }
 
 /* * * * * * * * * * header * * * * * * * * * */
@@ -19,7 +20,6 @@ body {
 h1,
 h2 {
   font-family: "Lilita One", cursive;
-  color: #343434;
 }
 
 h1 {
@@ -54,14 +54,14 @@ nav a {
 #page {
   background-color: #fffcfc;
   margin: auto;
-  width: 65%;
+  width: 1000px;
   padding: 28px;
   margin-top: 28px;
 }
 #content {
   display: flex;
   flex: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 /* * * * * about * * * * */
@@ -73,7 +73,7 @@ nav a {
 /* * * * * contact * * * * */
 
 #contact {
-  width: 25%;
+  width: 500px;
 }
 
 #contact a {
