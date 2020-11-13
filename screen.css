@@ -1,41 +1,73 @@
-/* * * * * * * * * * 
+/* * * * * * * * * *  * * * * *
 
 colors
 rose quartz: #f7cac9 
 'white': #fffcfc
-'black': #343434
+'black': #0e0202
 red: #751311
 
-* * * * * * * * * */
+* * * * * * * * * * * * * * */
 
 body {
   background-color: #f7cac9;
-  font-family: "Cabin";
+  font-family: "Cabin", sans-serif;
   font-weight: 400;
-  color: #343434;
+  color: #0e0202;
 }
 
-/* * * * * * * * * * header * * * * * * * * * */
-
-h1,
-h2 {
-  font-family: "Lilita One", cursive;
+::-webkit-scrollbar {
+  display: none;
 }
+
+a {
+  color: #751311;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* * * * * * * * * * headers * * * * * * * * * */
 
 h1 {
   font-size: 48px;
   margin-top: -4px;
+  font-family: "Lilita One", cursive;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  width: 458px;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-style: italic;
+  width: 458px;
 }
 
 header {
   text-align: center;
 }
 
-/* * * * * nav * * * * */
+/* * * * * * * * * * nav * * * * * * * * * */
 
 nav ul {
   list-style: none;
   margin-top: -18px;
+  padding: 0px;
 }
 
 nav ul li {
@@ -57,45 +89,65 @@ nav a {
   width: 1000px;
   padding: 28px;
   margin-top: 28px;
-}
-#content {
-  display: flex;
-  flex: wrap;
-  justify-content: space-evenly;
+  margin-bottom: 28px;
 }
 
-/* * * * * about * * * * */
+/* * * * * * * * * * index * * * * * * * * * */
+
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 28px;
+}
 
 #about {
   flex-shrink: 1;
+  margin-right: 28px;
 }
-
-/* * * * * contact * * * * */
 
 #contact {
-  width: 500px;
-}
-
-#contact a {
-  color: #751311;
-  font-family: "Cabin";
-  font-weight: 400;
+  width: 550px;
+  margin-left: 28px;
 }
 
 /* * * * * * * * * * resume * * * * * * * * * */
 
-h3 {
-  margin-top: -10px;
-  margin-bottom: 5px;
-  font-family: "Cabin";
-  font-weight: 700;
-}
-
-h4 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+#resume {
+  margin-top: 28px;
 }
 
 #resume ul {
   margin-top: 0px;
+}
+
+#footer {
+  margin-top: 28px;
+}
+
+.skills {
+  position: relative;
+  width: 480px;
+  margin-left: 514px;
+  margin-top: -50px;
+  margin-right: 28px;
+}
+
+#experience {
+  margin-top: 28px;
+}
+
+#education {
+  margin-top: 28px;
+}
+
+#projects {
+  margin-top: 28px;
+}
+
+#skills {
+  position: absolute;
+  width: 480px;
+  margin-left: 514px;
+  margin-top: -290px;
+  margin-right: 28px;
 }

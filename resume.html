@@ -5,7 +5,7 @@
 <head>
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lilita+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="screen.css">
     <link rel="icon" type="image/png" href="favicon.png">
 
@@ -16,55 +16,104 @@
 
 <div id="page">
 
+<!-------------------- NAV -------------------->
+
 <header>
     <h1>Tania Soutonglang</h1>
     <nav>
         <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./resume.html">Resume (will add later)</a></li>
-            <li><a href="" target="_blank">Portfolio</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="https://spacebunnyexe.wixsite.com/mysite" target="_blank">Portfolio</a></li>
         </ul>
     </nav>
 </header>
 
 <section id="resume">
-    <section id="education">
-        <h2>Education</h2>
-        <h3>Illinois Institute of Technology</h3>
-        <h4>Aug 2020 - Present</h4>
-        <ul>
-            <li>Bachelor of Science in Computer Science</li>
-            <li>Minor in Game Studies and Design</li>
-            <li>Kappa Phi Delta Fall 2020 Social Chair</li>
-        </ul>
 
-        <h3>Girls Who Code Summer Immersion Program</h3>
-    </section>
+    <!-------------------- EXPERIENCE -------------------->
 
     <section id="experience">
         <h2>Experience</h2>
         <h3>Medici on 57th, <i>Bakery Counter, Hostess</i></h3>
         <h4>Jul 2020 - Present</h4>
-        <ul>
-            <li>Assist customers in buying bakery and restaurant foods</li>
-            <li>Accommodated customers to seats</li>
-        </ul>
+        <section class="skills">
+            <ul>
+                <li>Assists customers in buying bakery and restaurant foods</li>
+                <li>Handles food orders through phone calls and the virtual system</li>
+                <li>Accommodate customers to seats</li>
+            </ul>
+        </section>
 
         <h3>Foodease, <i>Market Stocker, Market Line</i></h3>
         <h4>Jul 2018 - Mar 2020</h4>
+        <section class="skills">
+            <ul>
+                <li>Packaged food containers to restock stock market shelves</li>
+                <li>Sliced deli meat and cheese for sandwiches</li>
+                <li>Assembled sandwiches according to customers' requests</li>
+            </ul>
+        </section>
+    </section>
+
+    <!-------------------- EDUCATION -------------------->
+
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Illinois Institute of Technology</h3>
+        <h4>Aug 2020 - Present</h4>
+        <section class="skills">
+            <ul>
+                <li>Bachelor of Science in Computer Science</li>
+                <li>Minor in Game Studies and Design</li>
+                <li>Kappa Phi Delta Fall 2020 Social Chair</li>
+            </ul>
+        </section>
+        <h3>Girls Who Code Summer Immersion Program</h3>
+        <h4>Jun 2017 - Aug 2017</h4>
+        <section class="skills">
+            <ul>
+                <li>Learned basics of coding in HTML, CSS, and Python</li>
+                <li>Learned networking and teamworking skills</li>
+            </ul>
+        </section>
+    </section>
+
+    <!-------------------- PROJECTS -------------------->
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3><a href="https://tinyurl.com/willythewhale" alt="Link to the Willy the Whale website" target="_blank">Willy the Whale</a></h3>
+        <h4>Aug 2017</h4>
         <ul>
-            <li>Package food containers to restock stock market shelves</li>
-            <li>Slice deli meat and cheese for sandwiches</li>
-            <li>Assemble sandwiches according to customers' requests</li>
+            <li>Game created on Scratch and website hosted on Git Pages</li>
+            <li>Meant to raise awareness of ocean pollution</li>
+        </ul>
+
+        <h3><a href="https://www.instagram.com/mangaartstudio/" alt="Link to the Manga Art Studio Instagram" target="_blank">Manga Art Studio</a></h3>
+        <h4>Apr 2020 - Present</h4>
+        <ul>
+            <li>Program for Chicago students to improve their art techniques</li>
+            <li>Create art based off of Japanese manga styles</li>
+            <li>Further time management and pacing skills</li>
+            <li>Works in teams to create final pieces</li>
         </ul>
     </section>
 
-    <section id="Projects">
-        <h2>Projects</h2>
-        <h3>Willy the Whale</h3>
-
-        <h3>Manga Art Studio</h3>
+    <!-------------------- SKILLS -------------------->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>HTML and CSS</li>
+            <li>Java</li>
+            <li>Lifeguard Certification</li>
+            <li>CPR, AED, and First Aid Certification</li>
+        </ul>
     </section>
+
+
+    <!-------------------- PDF -------------------->
 
     <section id="footer">
         Click <a href="./TaniaSoutonglangResume.pdf" target="_blank">here</a> for a pdf version of my resume~
