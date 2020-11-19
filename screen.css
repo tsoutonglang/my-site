@@ -73,6 +73,7 @@ nav ul {
   list-style: none;
   margin-top: -18px;
   padding: 0px;
+  font-size: 18px;
 }
 
 nav ul li {
@@ -162,7 +163,7 @@ nav a {
 #portfolio {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 28px;
   align-items: center;
   flex-wrap: wrap;
@@ -175,6 +176,8 @@ img {
 .art {
   position: relative;
 }
+
+/* * fade in overlay from https://www.w3schools.com/howto/howto_css_image_overlay.asp * */
 
 .overlay {
   position: absolute;
