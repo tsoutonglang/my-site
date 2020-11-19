@@ -2,6 +2,7 @@
 
 colors
 rose quartz: #f7cac9 
+serenity: #92a8d1
 'white': #fffcfc
 'black': #0e0202
 red: #751311
@@ -23,6 +24,10 @@ a {
   color: #751311;
 }
 
+a:hover {
+  color: #0e0202;
+}
+
 p {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -33,7 +38,7 @@ p {
 h1 {
   font-size: 48px;
   margin-top: -4px;
-  font-family: "Lilita One", cursive;
+  font-family: "Lilita One";
 }
 
 h2 {
@@ -101,12 +106,13 @@ nav a {
 }
 
 #about {
+  width: 1500px;
   flex-shrink: 1;
   margin-right: 28px;
 }
 
 #contact {
-  width: 550px;
+  width: 560px;
   margin-left: 28px;
 }
 
@@ -150,4 +156,55 @@ nav a {
   margin-left: 514px;
   margin-top: -290px;
   margin-right: 28px;
+}
+
+/* * * * * * * * * * portfolio * * * * * * * * * */
+#portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 28px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 296px;
+}
+
+.art {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #0e0202;
+}
+
+.art:hover .overlay {
+  opacity: 0.85;
+}
+
+.art-text {
+  color: #fffcfc;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  opacity: 100%;
+}
+
+.art-text h2 {
+  font-size: 20px;
 }
