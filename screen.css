@@ -2,7 +2,6 @@
 
 colors
 rose quartz: #f7cac9 
-serenity: #92a8d1
 'white': #fffcfc
 'black': #0e0202
 red: #751311
@@ -34,7 +33,7 @@ p {
   margin-bottom: 8px;
 }
 
-/* * * * * * * * * * headers * * * * * * * * * */
+/* * * * * * * * * * HEADERS * * * * * * * * * */
 
 h1 {
   font-size: 48px;
@@ -76,7 +75,7 @@ header {
   text-align: center;
 }
 
-/* * * * * * * * * * nav * * * * * * * * * */
+/* * * * * * * * * * NAV * * * * * * * * * */
 
 nav ul {
   list-style: none;
@@ -105,7 +104,7 @@ nav a:hover,
   color: #fffcfc;
 }
 
-/* * * * * * * * * * page * * * * * * * * * */
+/* * * * * * * * * * PAGE * * * * * * * * * */
 
 #page {
   background-color: #fffcfc;
@@ -120,7 +119,7 @@ nav a:hover,
   margin-top: 28px;
   text-align: center;
 }
-/* * * * * * * * * * index * * * * * * * * * */
+/* * * * * * * * * * INDEX * * * * * * * * * */
 
 #content {
   display: flex;
@@ -149,7 +148,7 @@ nav a:hover,
   display: block;
 }
 
-/* * * * * * * * * * resume * * * * * * * * * */
+/* * * * * * * * * * RESUME * * * * * * * * * */
 
 #resume {
   margin-top: 28px;
@@ -187,16 +186,21 @@ nav a:hover,
   margin-right: 28px;
 }
 
+#pdf {
+  margin-top: 28px;
+}
+
 #pdf a {
   background-color: #751311;
   color: #fffcfc;
   text-decoration: none;
   padding: 14px;
   text-align: center;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
-/* * * * * * * * * * portfolio * * * * * * * * * */
+/* * * * * * * * * * PORTFOLIO * * * * * * * * * */
 #portfolio {
   display: flex;
   flex-direction: row;
