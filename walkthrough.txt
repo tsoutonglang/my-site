@@ -6,4 +6,10 @@ The last link in my navigation is my portfolio. I'm showing some of my art and t
 
 I know I didn't need the portfolio, and to be honest, I'm not sure if having everything together is the best thing. But, I wanted to put it in because I knew I wouldn't work on this project at all. I wanted the portolio page to give me a challenge to learn more coding things. That said, there were quite a lot of things in my portfolio I wish I could have done. I wanted the layout to have the masonry layout (think Pinterest) but I couldn't figure out how to make the JavaScript have each element span automatically. I used the three column layout to achieve a layout similar to masonry, but the images went in vertical order instead of horizontal which really bothered me because I wanted all of my newer works near the top together instead of having to scroll up and down. I had the idea of updating that page whenever I could so I didn't want to use a grid or make each column its own class because I would have to manually change each image's location and I just don't want to do that myself.
 
+I wanted to add slideshows to the portfolio page but the tutorial I found only worked for one slideshow on the page and even though it said you can add more with some modifications, it caused the slideshows to not work anymore. So instead I opted to just link each image to their Instagram post, if it's applicable.
+
+I originally wanted to make a new page for each piece of work which would also solve the slideshow problem because I wouldn't need to use slide show unless I felt like I needed it to properly show a piece, but I felt like that would take a lot of time out of doing the other pages I also needed to work on, so maybe in the future I can implement that. 
+
+I wanted to make each image a modal image so it pops up when you click on the image, but I was afraid it would end up having the same problem like the slideshows, so I didn't implement it for the sake of not spending 3+ hours debugging.
+
 Overall, I say that this website is a huge step up from the website I made when I was 16. I had a lot of fun figuring out how to make the portfolio how I'd like it. 
