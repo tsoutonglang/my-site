@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lilita+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="screen.css">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <script src="script.js"></script>
 
     <title>Tania Soutonglang</title>
 </head>
@@ -33,49 +34,78 @@
 
 <section id="portfolio">
 
-    <div class="col">
-        <div class="art">
-            <img src="./img/barbatos.png" alt="Stylized illustration of Barbatos from the video game 'Obey Me'" />
-            <div class="overlay">
-                <div class="art-text"><h2>80s Barbatos</h2></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col">
-        <div class="art">
-            <img src="./img/daishou.png" alt="Stylized illustration of Daishou Suguru from the anime 'Haikyuu!!'. His head is resting on his right head as he stares at the viewer." />
-            <div class="overlay">
-                <div class="art-text"><h2>90s Daishou Suguru</h2></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col">
-        <div class="art">
-            <div><img src="./img/solomonb.png" alt="" /></div>
-            <div class="overlay">
-                <div class="art-text"><h2>Resident Shady Boy, Solomon</h2></div>
-            </div>
-        </div>
-    </div>
-
+    <!---------- barbatos ---------->
     <div class="art">
-        <div><img src="./img/solomonw.png" alt="" /></div>
+        <img src="./img/barbatos.png" alt="Stylized illustration of Barbatos from the video game 'Obey Me'" />
         <div class="overlay">
-            <div class="art-text">Resident Shady Boy, Solomon</div>
+            <div class="art-text"><h2>80s Barbatos</h2><br>November 2020</div>
         </div>
-    </div> 
+    </div>
     
-    <div><img src="./img/sugawara-mafia.png" alt="Stylized illustration of Sugawra Koushi from the anime 'Haikyuu!!' His left thumb is wiping his lip and he stares at the viewer." /></div>
-    <div><img src="./img/sugawara-mafia-demon.png" alt="Stylized illustration of Sugawra Koushi from the anime 'Haikyuu!!' His left thumb is wiping blood off of his lip and he stares at the viewer with red irises." /></div>
+    <!---------- daishou ---------->
+    <div class="art">
+        <img src="./img/daishou.png" alt="Stylized illustration of Daishou Suguru from the anime 'Haikyuu!!'. His head is resting on his right head as he stares at the viewer." />
+        <div class="overlay">
+            <div class="art-text"><h2>90s Daishou Suguru</h2><br>November 2020</div>
+        </div>
+    </div>
 
+    <!---------- solomon ---------->
+    <!---------- gallery slideshow found on https://www.w3schools.com/howto/howto_js_slideshow.asp  ---------->
+    <div class="art">
+        <div class="slideshow-container">
+
+            <div class="SolomonSlides fade">
+                <img src="./img/solomonb.png" alt="Stylized illustration of Solomon from the game Obey Me. He is facing the right with his right hand in his pant pocket and his left hand grabbing the edge of his coat."/>
+            </div>
+        
+            <div class="SolomonSlides fade">
+                <img src="./img/solomonw.png">
+            </div>
+        </div>
+
+        <div class="overlay">
+            <div class="art-text"><h2>Resident Shady Boy, Solomon</h2><br>October 2020</div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    
+    </div>
+
+    <!---------- sugawara ---------->
+    <div class="art">
+        <div class="slideshow-container">
+
+            <div class="SugawaraSlides fade">
+                <img src="./img/sugawara-mafia.png" alt="Stylized illustration of Sugawra Koushi from the anime 'Haikyuu!!' His left thumb is wiping his lip and he stares at the viewer." />
+            </div>
+        
+            <div class="SugawaraSlides fade">
+                <img src="./img/sugawara-mafia-demon.png" alt="Stylized illustration of Sugawra Koushi from the anime 'Haikyuu!!' His left thumb is wiping blood off of his lip and he stares at the viewer with red irises." />
+            </div>
+        </div>
+
+        <div class="overlay">
+            <div class="art-text"><h2>Sugawara Koushi, Demon Consigliere</h2><br>October 2020</div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    
+    </div>
+
+    <!---------- retro girl ---------->
     <div><img src="./img/retro-girl.png" alt="" /></div>
     
+    <!---------- healing ---------->
     <div><img src="./img/healing.jpg" alt="Acrylic portrait of me laying on my side, resting with my earbuds in." /></div>
 
 </section>
 </div>
+
+<script>
+    showSlides(1, 0);
+    showSlides(1, 1);
+</script>
 
 </body>
 </html>

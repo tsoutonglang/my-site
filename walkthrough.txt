@@ -1,0 +1,9 @@
+When you first open my website you're on my about me page. It has my bio and a small blurb about what I'm currently working on.
+
+The next link is my resume. In here my experience, education, projects, and skills are listed. At the bottom of the page is the download link to a PDF version of my resume. The headers of each project is a link since both of my projects so far have been digital.
+
+The last link in my navigation is my portfolio. I'm showing some of my art and the one game I made. At the bottom of the page are links to my art Instagram, Twitter, my commission info, and the email I use for my art business.
+
+I know I didn't need the portfolio, and to be honest, I'm not sure if having everything together is the best thing. But, I wanted to put it in because I knew I wouldn't work on this project at all. I wanted the portolio page to give me a challenge to learn more coding things. That said, there were quite a lot of things in my portfolio I wish I could have done. I wanted the layout to have the masonry layout (think Pinterest) but I couldn't figure out how to make the JavaScript have each element span automatically. I used the three column layout to achieve a layout similar to masonry, but the images went in vertical order instead of horizontal which really bothered me because I wanted all of my newer works near the top together instead of having to scroll up and down. I had the idea of updating that page whenever I could so I didn't want to use a grid or make each column its own class because I would have to manually change each image's location and I just don't want to do that myself.
+
+Overall, I say that this website is a huge step up from the website I made when I was 16. I had a lot of fun figuring out how to make the portfolio how I'd like it. 
