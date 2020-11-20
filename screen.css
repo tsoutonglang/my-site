@@ -85,7 +85,14 @@ nav a {
   color: #751311;
   font-family: "Cabin";
   font-weight: 500;
-  padding: 0.5em 1em;
+  padding: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background: #751311;
+  color: #fffcfc;
 }
 
 /* * * * * * * * * * page * * * * * * * * * */
@@ -99,6 +106,10 @@ nav a {
   margin-bottom: 28px;
 }
 
+#footer {
+  margin-top: 28px;
+  text-align: center;
+}
 /* * * * * * * * * * index * * * * * * * * * */
 
 #content {
@@ -138,11 +149,6 @@ nav a {
   margin-top: 0px;
 }
 
-#footer {
-  margin-top: 28px;
-  text-align: center;
-}
-
 .skills {
   position: relative;
   width: 480px;
@@ -169,6 +175,15 @@ nav a {
   margin-left: 514px;
   margin-top: -290px;
   margin-right: 28px;
+}
+
+#pdf a {
+  background-color: #751311;
+  color: #fffcfc;
+  text-decoration: none;
+  padding: 14px;
+  text-align: center;
+  display: inline-block;
 }
 
 /* * * * * * * * * * portfolio * * * * * * * * * */
@@ -225,69 +240,16 @@ img {
   font-size: 20px;
 }
 
-/* * gallery slideshow found on https://www.w3schools.com/howto/howto_js_slideshow.asp * */
- {
-  box-sizing: border-box;
+.art-text h3 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.slideshow-container {
-  max-width: 312px;
-  position: relative;
-}
-
-.SolomonSlides {
-  display: none;
-}
-
-.SugawaraSlides {
-  display: none;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #fffcfc;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 0 3px 3px 0;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
+.art-text a {
   color: #fffcfc;
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+.art-text a:hover {
+  color: #751311;
 }
