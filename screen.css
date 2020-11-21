@@ -181,7 +181,7 @@ nav a:hover,
 }
 
 #skills {
-  position: relative;
+  position: absolute;
   width: 480px;
   margin-left: 514px;
   margin-top: -290px;
@@ -190,6 +190,7 @@ nav a:hover,
 
 #pdf {
   margin-top: 28px;
+  position: relative;
 }
 
 #pdf a {
