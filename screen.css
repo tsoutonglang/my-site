@@ -165,6 +165,7 @@ nav a:hover,
   margin-left: 514px;
   margin-top: -50px;
   margin-right: 28px;
+  margin-bottom: 28px;
 }
 
 #experience {
@@ -180,7 +181,7 @@ nav a:hover,
 }
 
 #skills {
-  position: absolute;
+  position: relative;
   width: 480px;
   margin-left: 514px;
   margin-top: -290px;
@@ -202,6 +203,12 @@ nav a:hover,
 }
 
 /* * * * * * * * * * PORTFOLIO * * * * * * * * * */
+
+#art-bio {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
 #portfolio {
   display: flex;
   flex-direction: row;
@@ -261,6 +268,11 @@ img {
   font-weight: 400;
   font-size: 16px;
 }
+.art-text h4 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
 
 .art-text a {
   color: #fffcfc;
@@ -277,16 +289,13 @@ img {
   margin-top: 28px;
   margin-bottom: 28px;
 }
-#portfolio-links h3 {
-  width: 1000px;
-}
 
 #sns {
   margin-top: 14px;
   margin-bottom: 14px;
 }
-#portfolio-links img {
-  max-width: 50px;
+#sns img {
+  max-width: 25px;
   margin-left: 5px;
   margin-right: 5px;
 }
