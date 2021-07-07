@@ -1,31 +1,51 @@
-/* * * * * * * * * *  * * * * *
+:root {
+  --background: #f7cac9;
+  --header-color: #1f1a1a;
+  --text-color: #3f3c3c;
+  --pagebg: #fffcfc;
+  --accent: #c46e85;
+  --text-font: 'Lato', sans-serif;
+  --header-font: 'News Cycle', sans-serif;
+}
 
-colors
-rose quartz: #f7cac9 
-'white': #fffcfc
-'black': #0e0202
-red: #751311
+::-webkit-scrollbar { width: 15px; }
+::-webkit-scrollbar-track-piece { 
+    background-color: var(--background);
+}  
 
-* * * * * * * * * * * * * * */
+::-webkit-scrollbar-thumb:vertical {
+    border-radius: 100px;
+    border-top: 6px solid var(--background); 
+    border-right: 6px solid var(--background); 
+    border-bottom: 6px solid var(--background); 
+    border-left: 6px solid var(--background); 
+    background: var(--accent2);
+}
 
-body {
-  background-color: #f7cac9;
-  font-family: "Cabin", sans-serif;
-  font-weight: 400;
-  color: #0e0202;
+::selection {
+  color: var(--text-color);
+  background-color: var(--background);
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
+body {
+  background-color: var(--background);
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
 a {
-  color: #751311;
+  color: var(--accent);
   text-decoration: none;
 }
 
 a:hover {
-  color: #0e0202;
+  color: var(--text-color);
 }
 
 p {
@@ -38,19 +58,19 @@ p {
 h1 {
   font-size: 48px;
   margin-top: -4px;
-  font-family: "Lilita One";
+  font-family: var(--header-font);
 }
 
 h1 a {
-  color: #0e0202;
+  color: var(--header-color);
 }
 
 h1 a:hover {
-  color: #0e0202;
+  color: var(--accent);
 }
 
 h2 {
-  font-family: "Lilita One";
+  font-family: var(--header-font);
   font-size: 2em;
   margin-bottom: 8px;
   margin-top: 0px;
@@ -89,8 +109,8 @@ nav ul li {
 }
 
 nav a {
-  color: #751311;
-  font-family: "Cabin";
+  color: var(--accent);
+  font-family: var(--text-font);
   font-weight: 500;
   padding: 8px;
   text-decoration: none;
@@ -100,14 +120,14 @@ nav a {
 
 nav a:hover,
 #selected {
-  background: #751311;
-  color: #fffcfc;
+  background: var(--accent);
+  color: var(--pagebg);
 }
 
 /* * * * * * * * * * PAGE * * * * * * * * * */
 
 #page {
-  background-color: #fffcfc;
+  background-color: var(--pagebg);
   margin: auto;
   width: 1000px;
   padding: 28px;
@@ -139,7 +159,6 @@ nav a:hover,
 }
 
 #avatar {
-  vertical-align: middle;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -194,8 +213,8 @@ nav a:hover,
 }
 
 #pdf a {
-  background-color: #751311;
-  color: #fffcfc;
+  background-color: var(--accent);
+  color: var(--pagebg);
   text-decoration: none;
   padding: 14px;
   text-align: center;
@@ -259,28 +278,27 @@ img {
 }
 
 .art-text h2 {
-  font-family: "Cabin", sans-serif;
-  font-weight: 700;
+  font-family: var(--text-font);
   font-size: 20px;
 }
 
 .art-text h3 {
-  font-family: "Cabin", sans-serif;
+  font-family: var(--text-font);
   font-weight: 400;
   font-size: 16px;
 }
 .art-text h4 {
-  font-family: "Cabin", sans-serif;
+  font-family: var(--text-font);
   font-weight: 400;
   font-size: 16px;
 }
 
 .art-text a {
-  color: #fffcfc;
+  color: var(--pagebg);
 }
 
 .art-text a:hover {
-  color: #751311;
+  color: var(--accent);
 }
 
 #portfolio-links {
